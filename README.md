@@ -8,7 +8,7 @@ To set up the Ollama locally, follow these steps:
 
 ### Step-1: Download the Ollama:
 ```bash
-    git clone curl -fsSL https://ollama.com/install.sh | sh
+    curl -fsSL https://ollama.com/install.sh | sh
 ```
 
 ### Step-2: Start the Ollama Server:
