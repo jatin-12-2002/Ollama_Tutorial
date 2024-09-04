@@ -37,3 +37,10 @@ To set up the Ollama locally, follow these steps:
 ```bash
 docker run -d --network=host -p 3000:8080 -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
 ```
+
+## To Create a Gradio APP with LLama3.1:
+
+### Step-1: Run the test.py file:
+```bash
+    python test.py
+```
